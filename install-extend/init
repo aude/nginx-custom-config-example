@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# start services
+service nginx start
+
+# this is the init program, so don't quit
+sleep infinity
